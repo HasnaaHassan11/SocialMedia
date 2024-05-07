@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(240, 240, 240);
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+    background-size: 6px 6px;
+	margin: 100px 0 50px 0 ;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+label {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 300px;
+    display: block;
+    margin-bottom: 3%;
+    font-size: large;
+	border-radius: 5px;
+    background-color: rgb(201, 201, 201);
+	border: none;
+	padding: 10px 15px;
+}
+
+
+#lg {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 300px;
+	border: none;
+    margin-bottom: 20px;
+    background: rgb(228, 44, 44);
+	color: white;
+}
+
+#lg:hover {
+	background: rgb(146, 28, 28);
+}
+
+#signup {
+    display: block;
+    background: rgb(226, 226, 226);
+    border: 3px solid rgb(201, 201, 201);
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+    padding: 11px 0;
+}
+
+#signup:hover {
+    background-color: rgba(121, 121, 121, 0.262);
+    text-decoration: none;
+}
